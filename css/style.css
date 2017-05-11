@@ -10,6 +10,90 @@
 	font-style: normal;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*common styles*/
+
 body{
   font-family: Josefin Sans, Arial, sans-serif;
+}
+
+ .main-width{
+   width: 800px;
+   margin: 0 auto;
+   border: 1px solid green;
+ }
+
+ .main-width::after{
+   clear: both;
+   content: "";
+   display: block;
+ }
+
+/*styles for header*/
+ header{
+   width: 100%;
+   background-color: grey;
+   font-size: 25px;
+ }
+
+ #header-logo{
+   float: left;
+ }
+
+ #header-menu{
+   float: right;
+ }
+
+ #header-menu li{
+   display: inline-block;
+ }
+
+/*styles for slider*/
+
+ .slider{
+   background-color: begie;
+   text-align: center;
+ }
+
+ .button{
+   background-color: grey;
+   width: 100px;
+   margin: 10px auto;
+   border-radius: 5px;
+   box-shadow: 1px 1px 2px darkgrey;
+
+ }
+
+.button:hover{
+  box-shadow: none;
+}
+
+/*styles for sections*/
+
+.section-header{
+  text-align: center;
+}
+
+.products{
+  background-color: grey;
+}
+
+.box{
+  width: 30%;
+  display: inline-block;
+	margin-left: 15px;
+}
+
+.content-box{
+  background-color: white;
+  height: 100px;
+}
+
+.section-header h2{
+	padding-bottom: 20px;
 }
