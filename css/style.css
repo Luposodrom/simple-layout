@@ -99,8 +99,34 @@ body{
 }
 
 .box{
-	vertical-align:
+	vertical-align: top;
 	display: inline-block;
 	width: 49%;
 	margin: 0 auto;
+	text-align: center;
+}
+
+.description{
+	background-color: begie;
+
+}
+
+.box p{
+
+	padding: 15px;
+}
+
+.box h3{
+	text-align: center;
+	font-size: 35px;
+}
+
+.small-box{
+	display: inline-block;
+	width: 14%;
+	margin-left: 13px;
+}
+
+.our-clients{
+	background-color: grey;
 }
