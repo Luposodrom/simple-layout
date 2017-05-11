@@ -130,3 +130,12 @@ body{
 .our-clients{
 	background-color: grey;
 }
+
+.super-section{
+	background-color: begie;
+}
+/* styling for footer*/
+footer{
+	width: 100%;
+	background-color: grey;
+}
