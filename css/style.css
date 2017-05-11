@@ -83,7 +83,7 @@ body{
   background-color: grey;
 }
 
-.box{
+.medium-box{
   width: 30%;
   display: inline-block;
 	margin-left: 15px;
@@ -96,4 +96,11 @@ body{
 
 .section-header h2{
 	padding-bottom: 20px;
+}
+
+.box{
+	vertical-align:
+	display: inline-block;
+	width: 49%;
+	margin: 0 auto;
 }
