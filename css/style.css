@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'Josefin Sans';
+	src: url('.../fonts/JosefinSans-Light.eot');
+	src: url('JosefinSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('.../fonts/JosefinSans-Light.woff2') format('woff2'),
+		url('.../fonts/JosefinSans-Light.woff') format('woff'),
+		url('.../fonts/JosefinSans-Light.ttf') format('truetype'),
+		url('.../fonts/JosefinSans-Light.svg#JosefinSans-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+body{
+  font-family: Josefin Sans, Arial, sans-serif;
+}
